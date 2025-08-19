@@ -1,0 +1,13 @@
+{
+  "name": "my-native-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve .",
+    "dev": "live-server --port=3000",
+    "serve": "http-server -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "live-server": "^1.2.2"
+  }
+}
